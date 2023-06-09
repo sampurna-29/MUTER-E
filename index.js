@@ -2,7 +2,7 @@ var map;
 var x;
 function loadmaps() {
   $.getJSON(
-    'https://api.thingspeak.com/channels/1769802/fields/1/last.json?api_key=8EC1TO1SG37E7USO',
+    'https://api.thingspeak.com/channels/2170596/fields/5/last.json?api_key=BW06UDS74KGO48UV',
     function (result) {
       var m = result;
       x = Number(m.field1);
@@ -10,7 +10,7 @@ function loadmaps() {
     }
   );
   $.getJSON(
-    'https://api.thingspeak.com/channels/1769802/fields/2/last.json?api_key=8EC1TO1SG37E7USO',
+    'https://api.thingspeak.com/channels/2170596/fields/6/last.json?api_key=BW06UDS74KGO48UV',
     function (result) {
       var m = result;
       y = Number(m.field2);
