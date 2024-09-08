@@ -1,10 +1,11 @@
-# MUTER - E: A Multi-Terrain Robot
-
 ## Introduction
 
 **MUTER - E** (Multi-Terrain Robot - Explorer) is a robotic system designed to navigate complex and challenging terrains using an advanced rocker bogie suspension mechanism. This system is widely known for its stability and ability to overcome obstacles, making it ideal for applications such as surveillance, environmental monitoring, search and rescue, industrial inspections, and agricultural tasks.
 
 The robot is equipped with a range of sensors, including a camera for visual feedback, GPS for location tracking, Wi-Fi for data transmission, and multiple gas sensors for monitoring environmental conditions. These features enable the robot to operate autonomously and transmit critical data to a web-based dashboard for real-time monitoring and analysis.
+
+**Related Publication:** For a detailed description of the design and development of MUTER - E, please refer to our research paper [here](https://iopscience.iop.org/article/10.1088/1757-899X/1295/1/012005/meta).
+
 
 ## Features
 
